@@ -1,0 +1,7 @@
+1.keep app.module and main only .. 
+2.create new module using nest g [g for generate ] module moduleName 
+3.create new controller using nest g controller controllerName --no-spec
+4.for more details use nest g --help
+5.Provider / services contains business logic . controller works as route in this architechture . 
+6.create a new service with nest g service serviceName --no-spec
+7.Following the SingleTon architechture. that means each component are singly trustable to import anywhere in the code. 
