@@ -14,7 +14,7 @@ export class TasksService {
     const { search, status } = filterDto;
     console.log(status, search);
     let tasks;
-    if (status) { 
+    if (status) {
       tasks = this.tasks.filter((t) => t.status === status);
     }
     if (search)

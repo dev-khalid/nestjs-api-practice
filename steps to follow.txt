@@ -5,3 +5,4 @@
 5.Provider / services contains business logic . controller works as route in this architechture . 
 6.create a new service with nest g service serviceName --no-spec
 7.Following the SingleTon architechture. that means each component are singly trustable to import anywhere in the code. 
+8.npm i class-validator class-transformer 
